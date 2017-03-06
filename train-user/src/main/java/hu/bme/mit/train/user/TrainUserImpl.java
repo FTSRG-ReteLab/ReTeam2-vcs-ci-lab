@@ -22,6 +22,10 @@ public class TrainUserImpl implements TrainUser {
 		return joystickPosition;
 	}
 
+	public int getNumber() {
+		return 0;
+	}
+
 	@Override
 	public void overrideJoystickPosition(int joystickPosition) {
 		this.joystickPosition = joystickPosition;
