@@ -19,12 +19,9 @@ public class TrainUserImpl implements TrainUser {
 
 	@Override
 	public int getJoystickPosition() {
-		return joystickPosition;
+		return 1;
 	}
 	
-	public void printHello() {
-		System.out.println("Heloka!");
-	}
 
 	@Override
 	public void overrideJoystickPosition(int joystickPosition) {
