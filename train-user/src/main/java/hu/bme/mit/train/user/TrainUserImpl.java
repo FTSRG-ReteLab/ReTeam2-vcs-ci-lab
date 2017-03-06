@@ -19,7 +19,7 @@ public class TrainUserImpl implements TrainUser {
 
 	@Override
 	public int getJoystickPosition() {
-		return 0;
+		return joystickPosition;
 	}
 
 	@Override
